@@ -1,0 +1,29 @@
+Theatre Algorithm
+Sergio Munguia: Account ml56
+January 22, 2014
+
+Declare and Initialize Variables/Constants
+
+const float REV = .25
+const float ATICK = 9.00
+const float CTICK = 6.00
+
+float grossProfit = 0.0;
+float netProfit = 0.0;
+float remainder = 0.0;
+int numAtickets = 0;
+int numCtickets = 0;
+string movieName;
+
+Display Intro
+
+Prompt user for the name of the movie. 
+Prompt user for how many adult tickets. 
+Prompt user for how many child tickets.
+
+Calculate grossProfit: numAtickets * ATICK + numCtickets * CTICK
+Calculate netProfit: grossProfit * REV
+Calculate remainder: grossProfit - netProfit
+
+Display the Calculated Information to user.
+   

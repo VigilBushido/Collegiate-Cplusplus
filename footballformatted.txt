@@ -1,0 +1,6 @@
+***************Player Summary****************
+Player name:   Russell Wilson
+Salary:        $80000000
+Age:           $25
+Team:          Seahawks
+Position:      Quarterback

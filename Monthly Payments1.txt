@@ -1,0 +1,49 @@
+int main()
+{
+double monthlyPayment;
+double balance;
+double interestRate;
+double interestPaid;
+double initialBalance;
+double termOfLoan;
+double month = 1;
+
+cout.setf(ios::fixed);
+cout.setf(ios::showpoint);
+cout.precision(2);
+
+cout << "Enter the current balance of loan : $";
+cin >> balance;
+cout << "Enter the interest rate : ";
+cin >> interestRate;
+cout << "Enter monthly payment : $";
+cin >> monthlyPayment;
+
+initialBalance = balance;
+
+while (interestRate >= .015)
+
+{
+interestRate = interestRate / 100;
+}
+
+balance = balance - (monthlyPayment - balance * interestRate);
+
+cout << "After first month balance =" << balance << endl;
+
+while (balance > 0)
+{
+if (balance < monthlyPayment)
+{
+balance = balance - balance;
+}
+else
+{
+balance = balance - (monthlyPayment - balance * interestRate);
+}
+
+month = month++;
+
+cout << "After month " << month << ", your balance is : $" << balance << endl;
+}
+cout << "Finished!!" << endl;

@@ -1,0 +1,20 @@
+Sergio Munguia: Account ml56
+February 1, 2014
+Property Tax Algorithm
+
+Declare Constants & Variables
+const float taxPercent = .0064;
+const float assessmentPercent = .60;
+float propertyValue = 0.0;
+float assessmentValue = 0.0;
+float propertyTax = 0.0;
+
+Introduce the Program
+
+Prompt user for the actual value of a piece of property
+
+Calculate the assessment value: assessmentValue = propertyValue * assessmentPercent
+
+Calculate the property tax: propertyTax = assessmentValue * taxPercent
+
+Display the the assessment value and property tax to user. 

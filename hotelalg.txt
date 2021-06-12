@@ -1,0 +1,58 @@
+hotel algorithm
+Feb 12, 2014
+Declare and initialized variables
+int numFloors = 0
+int numRoomsPerFloor = 0
+int numOccupiedPerFloor = 0
+int numUnoccupiedPerFloor = 0
+int totalRooms = 0
+int totalOccupied = 0
+int totalUnoccupied = 0
+float percentOccupied = 0.0
+float percentUnoccupied = 0.0
+
+Intro
+do
+{
+Prompt for numFloors
+input validation
+if (numFloors < 1)
+	display invalid
+}
+while (numFloors < 1)
+
+for(int i = 1; i <= numFloors; i++)
+{	do
+	{
+	Prompt for numRoomsPerFloor
+	input validation
+	if(numRoomsPerFloor < 10)
+		display invalid
+	}
+	while(numRoomsPerFloor < 10)
+	
+	do
+	{
+	Prompt for numOccupiedPerFloor
+	input validation
+	if(numOccupiedPerFloor < 0 || numOccupiedPerFloor > numRoomsPerFloor)
+		display invalid
+	}
+	while(numOccupiedPerFloor < 0 || numOccupiedPerFloor > numRoomsPerFloor)
+	
+	Calculate numUnoccupiedPerFloor
+	numUnoccupiedPerFloor = numRoomsPerFloor - numOccupiedPerFloor
+
+	Add to totals
+	totalRooms += roomsPerFloor 
+	totalOccupied = totalOccupied + numOccupiedPerFloor	
+	totalUnoccupied += numUnoccupiedPerFloor
+}
+
+Calculate percents
+percentUnoccupied = float(totalUnoccupied) / totalRooms * 100
+percentOccupied = float(totalOccupied) / totalRooms * 100
+
+Display totals and percents
+
+

@@ -1,0 +1,39 @@
+BMI Agorithm 
+Feb 5, 2014
+
+Declare and initialize variables
+float weight = 0.0
+float height = 0.0
+float bmi = 0.0
+
+Intro
+
+do
+Prompt for weight
+input validation
+if(weight < 0)
+	display invalid
+while (weight <0)
+
+
+do
+Prompt for height
+input validation
+if(height <0)
+	display invalid
+while(height <0)
+
+Calculate bmi
+bmi = (weight * 720) / (pow(height, 2))
+
+display bmi
+
+if structure to determine whether or not healthy range
+if(bmi < 18.5)
+	display underweight
+else if(bmi <= 24.9)
+	display healthy
+else
+	display overweight
+	
+

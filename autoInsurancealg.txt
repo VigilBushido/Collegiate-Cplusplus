@@ -1,0 +1,42 @@
+Auto Insurance Algorithm
+Feb 3, 2014
+
+Declare and initialize variables
+int age
+int maritalStatus
+float rate
+
+Intro
+
+do
+Prompt for age
+
+input validation
+if(age < 16)
+	display invalid
+
+while(age < 16)
+
+do
+Show a menu to prompt for maritalStatus
+1) Married
+2) Single
+
+Prompt for maritalStatus
+
+if(maritalStatus != 1 && maritalStatus != 2)
+	display invalid
+while (maritalStatus != 1 && maritalStatus != 2)
+
+
+Use a multi-way if structure to determine rate
+if (age < 25 && maritalStatus == 2)
+	rate = 800.0
+else if(age < 25 && maritalStatus == 1)
+	rate = 700.0
+else if(age >= 25 && maritalStatus == 2)
+	rate = 500.0
+else
+	rate = 450.0
+	
+Display rate

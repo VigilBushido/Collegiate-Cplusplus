@@ -1,0 +1,35 @@
+Sergio Munguia: Account ml56
+calories algorithm
+February 6, 2014
+
+Declare and Initialize Variables
+
+Intro 
+
+do 
+prompt for weight
+input validation
+if (weight < 10)
+	display invalid weight
+while (weight < 10)
+
+do 
+prompt for activity level 
+input validation 
+if(active != 1 && != 2)
+	display invalid	selection
+while (active !=1 && active !=2)
+
+do 
+prompt for gender
+input validation
+if(gender !=1 && gender !=2)
+	display invalid selection
+while (gender !=1 && gender !=2)
+
+Calculate intake using If/Else statements
+
+Display daily amount of calories to user
+
+
+

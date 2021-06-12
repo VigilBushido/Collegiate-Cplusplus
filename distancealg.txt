@@ -1,0 +1,34 @@
+Distance Algorithm
+Feb 10,2014
+
+Declare and initialize variables
+float speed, distance
+int hours = 0
+Intro
+
+do
+Prompt for hours
+input validation
+if (hours < 1)
+	display invalid
+while(hours < 1)
+
+do
+Prompt for speed
+input validation
+if (speed < 0)
+	display invalid
+while(speed < 0)
+
+Display chart heading 
+Hour		Distance Traveled
+-----------------------------
+
+for loop to display chart
+for(int time = 1; time < = hours; time++)
+{
+	Calculate distance
+	distance = speed * time
+	
+	display time and distance
+}

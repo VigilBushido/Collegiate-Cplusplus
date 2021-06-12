@@ -1,0 +1,47 @@
+Sergio Munguia: account ml56
+geometry algorithm
+February 14, 2014
+
+Declare the constants & initialize variables
+	int choice =0;
+	float radius = 0.0, length = 0.0, width = 0.0, base = 0.0, height = 0.0;
+	float Area = 0.0;
+Intro 
+
+Do
+
+Display menu 
+1. Calculate the Area of a Circle
+2. Calculate the Area of a Rectangle
+3. Calculate the Area of a Triangle
+4. Exit
+
+Prompt user to enter a choice (1-4)
+
+
+If user enters 1, prompt user for radius of circle
+input validation - No Negative Values
+Calculate Area = M_PI * pow(radius, 2)
+Display the Area of Circle
+
+If user enters 2, prompt user for the length & width of rectangle 
+input validation - No Negative Values 
+if (length < 0 || width < 0)
+while (length < 0 || width < 0)
+Calculate Area = length * width
+Display the Area of Rectangle
+
+If user enters 3, prompt user for the base & height of the triangle
+input validation - No Negative Values
+do
+if (base < 0)
+else if (height < 0)
+while (base < 0 || height < 0)
+Calculate Area = .5 * base * height
+Display the Area of the Triangle
+
+input validation
+	You can only choose between (1-4)
+	
+If user enters 4, the program should end. 
+while (choice !=4)

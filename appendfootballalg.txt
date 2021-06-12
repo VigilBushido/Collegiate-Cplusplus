@@ -1,0 +1,11 @@
+Sergio Munguia: Account ml56
+February 2, 2014
+appendfootball algorithm
+
+Declare a file pointer for output
+Open file "football.txt" for output
+Check for file
+
+Append the data to a file
+close the file. 
+

@@ -1,0 +1,98 @@
+   1.
+      /*This program provides a user help to determine how long they need to make
+   2.
+        monthly payments of a certain amount to pay off a debt at a certain rate of interest */
+   3.
+       
+   4.
+      #include <iostream>
+   5.
+      using namespace std;
+   6.
+       
+   7.
+       
+   8.
+      int main()
+   9.
+      {
+  10.
+      double monthlyPayment, balance, interestRate, intrestSum;
+  11.
+      int month = 1;
+  12.
+       
+  13.
+      cout.setf(ios::fixed); // These lines force currency format in output
+  14.
+      cout.setf(ios::showpoint); //to 2 decimal pts
+  15.
+      cout.precision(2);
+  16.
+       
+  17.
+      cout << "Enter the current balance of your loan: $";
+  18.
+      cin >> balance;
+  19.
+      cout << "Enter the interest rate (compounded monthly) : ";
+  20.
+      cin >> interestRate;
+  21.
+      cout << "Enter the desired monthly payment : $";
+  22.
+      cin >> monthlyPayment;
+  23.
+       
+  24.
+      while (interestRate >= 1)
+  25.
+       
+  26.
+      interestRate = interestRate / 100;
+  27.
+       
+  28.
+      balance = balance * (1 + interestRate / 12) - monthlyPayment;
+  29.
+       
+  30.
+      cout<<"After month "<<month<<", your balance is : $"<<balance<<endl;
+  31.
+       
+  32.
+      while (balance > 0)
+  33.
+      {
+  34.
+      month++;
+  35.
+       
+  36.
+      if (balance < monthlyPayment)
+  37.
+      {
+  38.
+      balance = balance - balance;
+  39.
+      cout << "You have paid off the loan after " << month <<" months's. Congratulations!" << endl;
+  40.
+      }
+  41.
+      else
+  42.
+      {
+  43.
+      balance = balance * (1 + interestRate / 12) - monthlyPayment;
+  44.
+      interestTotal
+  45.
+      cout << "After month " << month << ", your balance is : $" << balance << endl;
+  46.
+      }
+  47.
+       
+  48.
+      return 0;
+  49.
+      }

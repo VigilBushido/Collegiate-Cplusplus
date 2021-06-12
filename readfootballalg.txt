@@ -1,0 +1,19 @@
+Sergio Munguia: Account ml56
+February 2, 2014
+readfootball algorithm
+
+Declare & Initialize the Variables
+string firstName, lastName, team, position;
+int salary = 0, age = 0;
+
+Declare a input file pointer
+Declare a output file pointer
+
+Read in data from "football.txt"
+Check for file
+close file.
+
+Open the Output file
+Check for file
+Format the data & Read into "footballformatted.txt"
+close file. 

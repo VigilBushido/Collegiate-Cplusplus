@@ -1,0 +1,19 @@
+Sergio Munguia: Accout ml56
+February 2, 2014
+writefootball algorithm
+
+Declare & Initialize the Variables
+string firstName, lastName, team, position;
+int salary = 0, age = 0;
+
+Declare a file pointer for output
+Open file "football.txt" for output
+Check for file
+
+Prompt the user for the data about a football player
+
+Write the data to a file called "football.txt
+close the file. 
+
+
+

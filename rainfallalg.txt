@@ -1,0 +1,32 @@
+Sergio Munguia: account ml56
+rainfall algorithm
+February 14, 2014
+
+Declare & Initialize Variables
+	int years = 0, months = 0, count = 0;
+	float rainFall = 0.0, totalRain = 0.0, average = 0.0;
+Intro
+Prompt user for number of years 
+do
+input validation
+	years cannot be less than 1
+if (years < 1)
+	
+while (years < 1)
+Outer loop will iterate once for each year
+for (int i = 1; i <= years; i++)
+Inner loop will iterate once for each month
+for (int j = 1; j <= 12; j++)
+Prompt user for the inches of rainfall for month
+do
+input validation
+	no negative numbers for the monthly rainfall
+if (rainFall < 0)
+while (rainFall < 0)
+average total rain fall / amount of months
+
+Display to user the number of months, the total inches of rainfall, and the average rainfall per month for the entire period. 
+
+
+
+
